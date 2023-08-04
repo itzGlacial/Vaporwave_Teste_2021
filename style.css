@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 8px;
+    padding: 0;
+    flex: 1;
+    min-width: 200px;
+    background-color: transparent;
+    background-image: url('./imgs/space.webp');
+    background-position: middle;
+}
+
+button {
+    font-size: 12pt;
+    font-size: medium;
+    height: 60px;
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    transition: all 200ms;
+    margin: 5px;
+}
+p {
+    text-align: center;
+    font-size: 14pt;
+}
+.ps { margin:0 }
+
+.parag-comic {
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+}
+
+.vapor-wave-button {
+    background-image: linear-gradient(#fa93f7, #9ff1fa);
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+}
+
+.vapor-wave-button:hover {
+    box-shadow: 1px 1px 10px #fa93f7;
+}
+
+.edinaldo-pereira-button {
+    background-image: url('./imgs/fechado.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+}
+
+.edinaldo-pereira-button:hover {
+    background-image: url('./imgs/aberto.png');
+}
+
+.bele-button {
+    background-image: url(./imgs/a.jpg);
+    background-size: 200px, 20px;
+    background-position: middle;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+
+}
+
+.bele-button:hover {
+  background-image: url('./imgs/b.jpg');
+  background-size: 200px, 200px;
+  background-position: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+
+    padding: 5px;
+    border-style: none;
+}
+
+.left-bar {
+    flex: 1;
+    min-width: 220px;
+    background-image: linear-gradient(#fa93f7, #9ff1fa, #9ff1fa, #fa93f7);
+    padding: 10px;
+    border-style: inset;
+}
+
+.center {
+    flex: 3.5;
+    background-image: linear-gradient(#fa93f7, #9ff1fa, #9ff1fa, #fa93f7);
+    min-width: 220px;
+    min-height: 450px;
+    text-align: center;
+    padding: 10px;
+    border-style: inset;
+}
+
+.right-bar {
+    flex: 1;
+    min-width: 220px;
+    background-image: linear-gradient(#fa93f7, #9ff1fa, #9ff1fa, #fa93f7);
+    padding: 10px;
+    border-style: inset;
+}
+
+footer {
+    flex: 1;
+    font-size: 10pt;
+    font-family: 'Comic Sans MS';
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    border-style: inset;
+    background-color:#fa93f7;
+}
+
+.footer-space {
+    flex: 1;
+    min-height: 10px;
+    border-style: none;
+    background-color: transparent
+}
